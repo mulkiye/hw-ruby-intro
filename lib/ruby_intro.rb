@@ -1,7 +1,6 @@
 # When done, submit this entire file to the autograder.
 
 # Part 1
-
 def sum arr
   # YOUR CODE HERE
   sumOfNum=0
@@ -112,8 +111,6 @@ class BookInStock
       @price = price
     end
   end
-
-
 
   # Include a method price_as_string that returns the price of the book formatted with a leading dollar sign and two decimal places
   def price_as_string
