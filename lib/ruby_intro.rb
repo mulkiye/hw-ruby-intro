@@ -28,9 +28,13 @@ end
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
+  # Array indexing starts at 0, as in C or Java
   flag=0
   num=arr.size-1
-  if arr.size==0
+  # returns false for any single element array
+  # returns false for an empty array
+  # returns true when any two elements sum to the second argument
+  if arr.size<=1
 	  if n==0
 		  flag=0
 	  end
@@ -43,6 +47,7 @@ def sum_to_n? arr, n
 		  end
 	  end
   end
+  
   if flag==1
 	  return true
   else
